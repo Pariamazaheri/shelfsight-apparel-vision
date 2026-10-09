@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "threads": 2,
+  "versions": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1"
+  },
+  "source_hashes": {
+    "models.py": "eca9328ac00b1f607a1c356bcf7827969049dce0acef1c3edc819b3cde36fc22",
+    "evaluation.py": "a76f713f65057835108139a639a71cb4a3cb6d86ae0eec052247a2165e9c8b02",
+    "__init__.py": "1b694dcfddf48e37f58723468a0282b4ae6302dfa88da3d93743aaa7aff14424",
+    "visualization.py": "d299bc388b7c3942c49008810dac0e3fd32f5b45a6ee6315034dff1afd6c5a4f",
+    "cli.py": "c5c10e8f48da437460e25326f7275723e5029c23010eff623ac0fd9a72a7ed2c",
+    "pipeline.py": "0bb06b24c420b040822908a1b3c5109d57407c888e39fd02d84e9676b09d3345",
+    "inference.py": "549c5eb9c46f694c1d29a32c8353e17981e57ce3a232eb89048c63570e5db9fd",
+    "training.py": "901d436f215fb28f514e07515cbee3997072aab2672e2754e89645a099dde357",
+    "data.py": "8764deaa660e137e95d2577c3419ae6f8a818b6140443e531e968371db724eb4"
+  }
+}

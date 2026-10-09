@@ -1,0 +1,18 @@
+{
+  "backbone": "MobileNetV3-Small",
+  "weights": "IMAGENET1K_V1",
+  "weights_url": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+  "frozen_layers": "All pretrained features and pooling; original classifier discarded",
+  "feature_dimensions": 576,
+  "head": "Train-only StandardScaler + multinomial LogisticRegression(C=0.1)",
+  "preprocessing": "Official resize256/center-crop224/ImageNet normalization; replicated grayscale",
+  "validation": {
+    "accuracy": 0.8936666666666667,
+    "macro_f1": 0.8937747926602058,
+    "log_loss": 0.34536150356418194,
+    "ece_10_bins": 0.03381618533720976
+  },
+  "feature_extraction_seconds": 401.1282337079974,
+  "head_training_seconds": 0.5210604579988285,
+  "training_seconds_scope": "CNN training excludes download; transfer includes all split feature extraction plus head fit"
+}

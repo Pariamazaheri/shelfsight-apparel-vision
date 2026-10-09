@@ -1,0 +1,5 @@
+Independent portfolio implementation by Paria Mazaheri.
+Reported results are reproducible public-data experiments, not employer work
+or evidence of a commercial deployment. Source data terms are documented in
+data/README.md. Third-party datasets and pretrained weights are separate
+from the repository code license.

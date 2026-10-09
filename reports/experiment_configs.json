@@ -1,0 +1,37 @@
+[
+  {
+    "name": "cnn_baseline"
+  },
+  {
+    "name": "cnn_kernel5",
+    "kernel": 5
+  },
+  {
+    "name": "cnn_stride2",
+    "stride": 2
+  },
+  {
+    "name": "cnn_more_filters",
+    "filters": 32
+  },
+  {
+    "name": "cnn_average_pool",
+    "pooling": "average"
+  },
+  {
+    "name": "cnn_pool3",
+    "pool_size": 3
+  },
+  {
+    "name": "cnn_shallow",
+    "depth": 2
+  },
+  {
+    "name": "cnn_deep",
+    "depth": 4
+  },
+  {
+    "name": "cnn_augmentation",
+    "augment": true
+  }
+]

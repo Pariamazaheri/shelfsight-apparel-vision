@@ -1,0 +1,16 @@
+{
+  "official_train_rows": 60000,
+  "official_test_rows": 10000,
+  "exact_test_matches_excluded": 10,
+  "development_duplicate_images": 43,
+  "eligible_development_rows": 59947,
+  "train_rows": 12000,
+  "validation_rows": 3000,
+  "test_rows": 10000,
+  "normalization_mean": 0.28433137046485263,
+  "normalization_std": 0.3515165442967767,
+  "sha256": {
+    "train": "6e94982a04469e61eb7dc493ce1f606f8ded0a0b8bae7cb4809bf8701fd94b7f",
+    "test": "85ef50a3b4a5b5feead1e7aedae5aade5a2ed5ff59ac79d6525d6282a1a2bc01"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "custom_cnn": "cnn_pool3",
+  "criterion": "validation_macro_f1"
+}
